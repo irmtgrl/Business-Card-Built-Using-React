@@ -1,0 +1,99 @@
+header {
+  background-color: #FABC3C;
+  color: #FFEABF;
+  width: 100%;
+  padding: 16px 8px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+header > h2 {
+  margin: 0;
+  font-size: 2em;
+}
+
+main {
+  align-content: center;
+  width: 50%;
+  margin: 6em auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  background-color: #FABC3C;
+}
+
+.nav {
+  background-color: #1B998B;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.5em 2em;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.info-cnt {
+  padding: 2em;
+}
+
+.profile-pic {
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 40px;
+  border: 6px solid #FFEABF;
+  aspect-ratio: 1 / 1;
+}
+
+img {
+  height: 100%;
+  margin: 0;
+}
+
+.socials > div {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.socials > div > img {
+  width: 50px;
+}
+
+.skills > img {
+  width: 100%;
+  height: auto;
+}
+
+h4 {
+  margin: 0;
+  color: #FFEABF;
+  font-size: 1.5em;
+}
+
+p {
+  margin: 0;
+  font-size: 1.1em;
+  color: #171614;
+}
+
+.hr-box {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.vr-box{
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  max-width: 20em;
+  gap: 1em;
+}
+
+.spaced {
+  margin-top: 1em;
+  justify-content: space-between;
+}
